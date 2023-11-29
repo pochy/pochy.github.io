@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>kinaco</title>
+        <link>https://www.haxibami.net</link>
+        <description>AAA</description>
+        <lastBuildDate>Wed, 29 Nov 2023 17:46:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>ja</language>
+        <image>
+            <title>kinaco</title>
+            <url>https://www.haxibami.net/kripcat.jpg</url>
+            <link>https://www.haxibami.net</link>
+        </image>
+        <copyright>All rights reserved 2023, haxibami</copyright>
+        <item>
+            <title><![CDATA[Next.js で Markdown を使用したブログを作成]]></title>
+            <link>https://www.haxibami.net/articles/2023-11-25-nextjs-markdown-blog</link>
+            <guid>https://www.haxibami.net/articles/2023-11-25-nextjs-markdown-blog</guid>
+            <pubDate>Thu, 30 Nov 2023 00:00:45 GMT</pubDate>
+            <description><![CDATA[Next.js で Markdown を使用したブログを作成を作成しました。]]></description>
+            <category>develop</category>
+        </item>
+    </channel>
+</rss>

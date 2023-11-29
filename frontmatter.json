@@ -1,0 +1,92 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.dateFormat": "yyyy-MM-dd'T'HH:mm:ss.SSS",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "createdAt",
+          "name": "createdAt",
+          "type": "datetime"
+        },
+        {
+          "title": "updatedAt",
+          "name": "updatedAt",
+          "type": "datetime"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "coverImage",
+          "name": "coverImage",
+          "type": "image"
+        },
+        {
+          "title": "Draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "name",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "title": "picture",
+              "name": "picture",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "title": "ogImage",
+          "name": "ogImage",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "url",
+              "name": "url",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "next",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.preview.host": "http://localhost:3000",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "posts",
+      "previewPath": "/_posts",
+      "path": "[[workspace]]/_posts"
+    }
+  ]
+}

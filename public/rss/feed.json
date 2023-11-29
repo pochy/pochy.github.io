@@ -1,0 +1,24 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "kinaco",
+    "home_page_url": "https://www.haxibami.net",
+    "feed_url": "https://www.haxibami.net/rss/feed.json",
+    "description": "AAA",
+    "icon": "https://www.haxibami.net/kripcat.jpg",
+    "author": {
+        "name": "haxibami",
+        "url": "https://www.haxibami.net"
+    },
+    "items": [
+        {
+            "id": "https://www.haxibami.net/articles/2023-11-25-nextjs-markdown-blog",
+            "url": "https://www.haxibami.net/articles/2023-11-25-nextjs-markdown-blog",
+            "title": "Next.js で Markdown を使用したブログを作成",
+            "summary": "Next.js で Markdown を使用したブログを作成を作成しました。",
+            "date_modified": "2023-11-30T00:00:45.855Z",
+            "tags": [
+                "develop"
+            ]
+        }
+    ]
+}
