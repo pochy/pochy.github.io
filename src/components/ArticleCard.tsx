@@ -3,6 +3,8 @@ import { Article } from "@/types";
 import NextLink from "next/link";
 import Markdown from "./Markdown";
 import { Folder } from "lucide-react";
+import { basePath } from "../../next.config";
+const BASE_PATH = basePath ? basePath : "";
 
 export default function ArticleCard({ article }: { article: Article }) {
   const formattedDate = new Date(article.createdAt).toLocaleDateString(
@@ -48,7 +50,7 @@ export default function ArticleCard({ article }: { article: Article }) {
       </div>
       <div className="group relative">
         <NextLink href={`/articles/${article.slug}`}>
-          <img src={`${article.coverImage}`} alt={article.title} />
+          <img src={`${BASE_PATH}${article.coverImage}`} alt={article.title} />
         </NextLink>
         <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
           <NextLink

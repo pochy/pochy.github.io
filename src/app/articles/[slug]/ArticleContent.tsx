@@ -4,6 +4,8 @@ import { Article } from "@/types";
 import { Folder } from "lucide-react";
 import NextLink from "next/link";
 // import Image from "next/image";
+import { basePath } from "../../../../next.config";
+const BASE_PATH = basePath ? basePath : "";
 
 export default function ArticleContent({
   article,
@@ -60,7 +62,7 @@ export default function ArticleContent({
         <div className="my-10">
           <img
             className="rounded-lg"
-            src={`${article.coverImage}`}
+            src={`${BASE_PATH}${article.coverImage}`}
             alt={article.title}
             style={{ width: "fit-content" }}
           />
