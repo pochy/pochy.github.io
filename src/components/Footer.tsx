@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-4xl w-full mx-auto h-24 flex items-center justify-center">
         <div className="flex">
           <span>© kenta nakajima</span>
-          <a href={`${BASE_PATH}"/rss/feed.xml"`} className="ml-5">
+          <a href={`${BASE_PATH}/rss/feed.xml`} className="ml-5">
             <Rss color="#f26522" />
           </a>
         </div>
