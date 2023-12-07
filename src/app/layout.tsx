@@ -4,8 +4,6 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Suspense } from "react";
-import Loading from "./loading";
-import { cn } from "@/lib/utils";
 
 const noto = Noto_Sans_JP({
   weight: ["400", "700"],
@@ -25,15 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja" suppressHydrationWarning>
-      <body
-        className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          noto.className
-        )}
-        style={{ backgroundColor: "#F5F5F5" }}
-      >
+      <body className="min-h-screen bg-background font-sans antialiased">
         <Header />
-        <Suspense fallback={<Loading />}>{children}</Suspense>
+        {children}
         <Footer />
       </body>
     </html>

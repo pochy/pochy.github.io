@@ -10,11 +10,10 @@ export default function Header() {
           </li>
         </ul>
         <ul className="flex">
-          <li className="pr-2">
-            <Link href="/categories">カテゴリ</Link>
-          </li>
-          <li className="pr-2">
-            <Link href="/tags">タグ</Link>
+          <li>
+            <a href="/blog" className="text-2xl font-bold">
+              Blog
+            </a>
           </li>
         </ul>
       </div>
