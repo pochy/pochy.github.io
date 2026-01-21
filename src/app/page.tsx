@@ -8,7 +8,9 @@ export default function Home() {
     <main className="relative bg-black text-white overflow-hidden">
       <ParticleBackground />
 
-      <Hero3D />
+      <div className="relative z-10">
+        <Hero3D />
+      </div>
 
       <div className="relative z-10">
         <ScrollSection
