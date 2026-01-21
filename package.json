@@ -10,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
     "class-variance-authority": "^0.7.0",
     "lucide-react": "^0.469.0",
     "next": "^16.0.0",
@@ -18,7 +20,8 @@
     "remove": "^0.1.5",
     "sharp": "^0.32.6",
     "tailwind-merge": "^2.0.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.182.0"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
